@@ -10,7 +10,7 @@ const certificates = [
     category: 'Redes',
     date: '2026',
     code: 'TAV-NET-01',
-    image: 'certificados/certificado1.webp',
+    image: 'certificados/Certificado1.webp',
     pdf: 'certificados/pdf/ANDRE MIGUEL TAVOLASSI - Curso Análise De Ataques em Redes.pdf',
     verify: 'https://tavolassi.dev.br',
     description: 'Análise detalhada de vetores de ataque em tráfego de rede, vetores de ameaças e estratégias de mitigação.'
@@ -22,7 +22,7 @@ const certificates = [
     category: 'Sistemas',
     date: '2026',
     code: 'TAV-CLD-02',
-    image: 'certificados/certificado2.webp',
+    image: 'certificados/Certificado2.webp',
     pdf: 'certificados/pdf/ANDRE MIGUEL TAVOLASSI - Curso Carreira Cloud Security_ Boas-vindas e primeiros passos - Alura.pdf',
     verify: 'https://tavolassi.dev.br',
     description: 'Fundamentos de segurança em ambientes de computação em nuvem, arquitetura segura e boas práticas.'
@@ -34,7 +34,7 @@ const certificates = [
     category: 'Segurança',
     date: '2026',
     code: 'TAV-SEC-03',
-    image: 'certificados/certificado3.webp',
+    image: 'certificados/Certificado3.webp',
     pdf: 'certificados/pdf/ANDRE MIGUEL TAVOLASSI - Curso Cibersegurança_ Fundamentos e práticas integradas - Alura.pdf',
     verify: 'https://tavolassi.dev.br',
     description: 'Visão integrada de princípios de cibersegurança, controles de proteção, confidencialidade e gestão de riscos.'
@@ -46,7 +46,7 @@ const certificates = [
     category: 'Segurança',
     date: '2026',
     code: 'TAV-SOC-04',
-    image: 'certificados/certificado4.webp',
+    image: 'certificados/Certificado4.webp',
     pdf: 'certificados/pdf/ANDRE MIGUEL TAVOLASSI - Curso Deteção e Resposta a Incidente.pdf',
     verify: 'https://tavolassi.dev.br',
     description: 'Processos operacionais de identificação de anomalias, triagem e contenção imediata de incidentes de segurança.'
@@ -58,7 +58,7 @@ const certificates = [
     category: 'Segurança',
     date: '2026',
     code: 'TAV-SEC-05',
-    image: 'certificados/certificado5.webp',
+    image: 'certificados/Certificado5.webp',
     pdf: 'certificados/pdf/ANDRE MIGUEL TAVOLASSI - Curso Fortalecimento da Segurança.pdf',
     verify: 'https://tavolassi.dev.br',
     description: 'Técnicas avançadas de hardening em sistemas e serviços para redução da superfície de ataque.'
@@ -70,7 +70,7 @@ const certificates = [
     category: 'Redes',
     date: '2026',
     code: 'TAV-GGL-06',
-    image: 'certificados/certificado6.webp',
+    image: 'certificados/Certificado6.webp',
     pdf: 'certificados/pdf/ANDRE MIGUEL TAVOLASSI - Curso Google Segurança em Redes.pdf',
     verify: 'https://tavolassi.dev.br',
     description: 'Arquitetura segura de redes, protocolos de proteção, criptografia e infraestrutura de comunicação.'
@@ -82,7 +82,7 @@ const certificates = [
     category: 'Sistemas',
     date: '2025',
     code: 'TAV-LNX-07',
-    image: 'certificados/certificado7.webp',
+    image: 'certificados/Certificado7.webp',
     pdf: 'certificados/pdf/ANDRE MIGUEL TAVOLASSI - Curso Linux_ gerenciando diretórios, arquivos, permissões e processos - Alura.pdf',
     verify: 'https://tavolassi.dev.br',
     description: 'Administração de sistemas operacionais Linux, controle de permissões de acesso e gerenciamento de processos.'
@@ -94,7 +94,7 @@ const certificates = [
     category: 'Dev',
     date: '2025',
     code: 'TAV-DEV-08',
-    image: 'certificados/certificado8.webp',
+    image: 'certificados/Certificado8.webp',
     pdf: 'certificados/pdf/ANDRE MIGUEL TAVOLASSI - Curso Lógica de programação_ mergulhe em programação com JavaScript - Alura.pdf',
     verify: 'https://tavolassi.dev.br',
     description: 'Desenvolvimento de algoritmos, estruturas condicionais/de repetição e lógica de aplicação em JavaScript.'
@@ -106,7 +106,7 @@ const certificates = [
     category: 'Redes',
     date: '2025',
     code: 'TAV-NET-09',
-    image: 'certificados/certificado9.webp',
+    image: 'certificados/Certificado9.webp',
     pdf: 'certificados/pdf/ANDRE MIGUEL TAVOLASSI - Curso Monitoramento e Analise de Redes.pdf',
     verify: 'https://tavolassi.dev.br',
     description: 'Acompanhamento de fluxo de dados, captura de pacotes de rede e diagnóstico de performance/saúde de infraestrutura.'
@@ -118,7 +118,7 @@ const certificates = [
     category: 'Redes',
     date: '2025',
     code: 'TAV-OPS-10',
-    image: 'certificados/certificado10.webp',
+    image: 'certificados/Certificado10.webp',
     pdf: 'certificados/pdf/ANDRE MIGUEL TAVOLASSI - Curso Operações de Rede.pdf',
     verify: 'https://tavolassi.dev.br',
     description: 'Gestão de rotinas operacionais, manutenção de topologias e garantia de disponibilidade e estabilidade de conexões.'
@@ -130,7 +130,7 @@ const certificates = [
     category: 'Segurança',
     date: '2026',
     code: 'TAV-SIEM-11',
-    image: 'certificados/certificado11.webp',
+    image: 'certificados/Certificado11.webp',
     pdf: 'certificados/pdf/ANDRE MIGUEL TAVOLASSI - Curso Trafego de Redes e Logs Usando IDS e SIEM.pdf',
     verify: 'https://tavolassi.dev.br',
     description: 'Análise de eventos de segurança, criação e ajuste de regras em sistemas IDS e correlação centralizada em SIEM.'
@@ -142,7 +142,7 @@ const certificates = [
     category: 'Segurança',
     date: '2026',
     code: 'TAV-FIAP-12',
-    image: 'certificados/certificado12.webp',
+    image: 'certificados/Certificado12.webp',
     pdf: 'certificados/pdf/ANDRE MIGUEL TAVOLASSI - FIAP(profissional de cibersegurança).pdf',
     verify: 'https://tavolassi.dev.br',
     description: 'Formação acadêmica técnica em defesa cibernética, resposta a incidentes e proteção de ativos da FIAP.'
