@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andre Miguel Tavolassi — Certificações</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <!-- Cabeçalho -->
+    <header class="header">
+      <div class="badge">
+        <span class="dot"></span>
+        tavolassi.dev.br
+      </div>
+      <h1 class="title">Andre Miguel Tavolassi</h1>
+      <p class="subtitle">
+        Especialista em <span class="highlight">Cybersecurity, Automação de SOC e Redes.</span>
+      </p>
+      <p class="description">
+        Repositório de credenciais técnicas, certificações de defesa cibernética e qualificações convertidas em alta resolução (WebP).
+      </p>
+    </header>
+
+    <!-- Filtros de Categoria -->
+    <nav class="filters" id="filters-container">
+      <button class="filter-btn active" data-category="Todos">Todos</button>
+      <button class="filter-btn" data-category="Segurança">Segurança</button>
+      <button class="filter-btn" data-category="Redes">Redes</button>
+      <button class="filter-btn" data-category="Dev">Dev</button>
+      <button class="filter-btn" data-category="Sistemas">Sistemas</button>
+    </nav>
+
+    <!-- Bento Grid de Certificados -->
+    <main class="grid" id="certificates-grid"></main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+      <p>© 2026 Andre Miguel Tavolassi. Todos os direitos reservados.</p>
+      <p>Hospedado em tavolassi.dev.br</p>
+    </footer>
+  </div>
+
+  <!-- Modal QuickLook (Estilo macOS / Apple) -->
+  <div class="modal-overlay hidden" id="modal-overlay">
+    <div class="modal">
+      <div class="modal-header">
+        <div class="window-controls">
+          <span class="control close" id="modal-close-btn"></span>
+          <span class="control minimize"></span>
+          <span class="control maximize"></span>
+          <span class="file-name" id="modal-file-name">certificado.webp</span>
+        </div>
+        <button class="close-x" id="modal-close-x">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <img id="modal-img" src="" alt="Certificado em alta resolução">
+      </div>
+
+      <div class="modal-footer">
+        <div class="modal-info">
+          <h3 id="modal-title">Título do Certificado</h3>
+          <p id="modal-meta">Emitido para Andre Miguel Tavolassi</p>
+        </div>
+        <div class="modal-actions">
+          <a id="modal-download" href="#" download class="btn btn-secondary">Baixar PDF Original</a>
+          <a id="modal-verify" href="#" target="_blank" class="btn btn-primary">Validar Origem</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
